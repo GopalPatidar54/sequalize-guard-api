@@ -1,0 +1,23 @@
+{
+  "name": "sequalize-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "i": "^0.3.7",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "npm": "^8.15.0",
+    "sequelize": "^6.21.3",
+    "sequelize-auto": "^0.8.8",
+    "sequelize-guard": "^0.1.2"
+  }
+}
