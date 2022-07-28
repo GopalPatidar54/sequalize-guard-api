@@ -42,7 +42,7 @@ async function addPermsToRole(data) {
   const {role = 'admin', actions, resources} = data;
   return db.guard.addPermsToRole(role, actions, resources);
 }
-rmPermsFromRole;
+
 async function rmPermsFromRole(data) {
   const {role = 'admin', actions, resources} = data;
   return db.guard.rmPermsFromRole(role, actions, resources);
